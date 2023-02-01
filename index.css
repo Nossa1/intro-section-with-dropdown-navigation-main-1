@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+    
+}
+
+.mainDiv{
+    min-width: 398px;
+    height: 1300px;
+    background-color: white;
+    
+}
+.headerDiv{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.myLogo{
+    width: fit-content;
+    margin: 20px;
+}
+.myMenu{   
+    height: fit-content;
+    margin: 20px;
+    right: 20px;
+    position: absolute;
+}
+.myMenu button{
+    border: none;
+    cursor: pointer;
+}
+.mainPhotoDiv img{
+    width: 100%;
+}
+.bodyDiv{
+    margin-top: 30px;
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+.bodyDiv h1, p{
+    text-align: center;
+    
+}
+.bodyDiv h1{
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+.bodyDiv p{
+    padding: 0 10px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.myBtn{
+    position: relative;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.myBtn button{
+   background-color: black;
+   color: white;
+   min-width: 100%;
+   height: 50px;
+   border-radius: 15px;
+   font-size: 16px;
+   cursor: pointer;
+}
+.myBtn :hover{
+background-color: white;
+color:  black;
+}
+.bottomDiv{
+    margin-top: 40px;
+    max-width: 380px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.bottomDiv img{
+    width: 20%;
+   padding: 0 15px 0 0;
+}
+.sideDiv{    
+    min-width: 65%;
+    min-height: 100%;
+    background-color: white;
+    position: fixed;  
+   right: 0;
+   top: 0;
+   flex-direction: column;
+   display: none;
+}
+.closeIcon{
+    margin: 20px;
+    float: right;
+}
+.closeIcon button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.menuList{
+    position: absolute;
+    margin: 80px 20px;
+    min-width: 100%;
+    
+}
+.menuList ul{
+    list-style: none;
+    line-height: 45px;
+}
+.menuList ul li{
+    font-size: 22px;
+    color: hsl(0, 0%, 41%);
+}
+.featuresDiv{
+    margin: 20px 30px;
+    display: none;
+}
+.companyDiv{
+    margin: 20px 30px;
+    display: none;
+}
+.loginDiv{
+    margin-top: 30px;
+    max-width: 80%;
+
+}
+.loginDiv h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.loginDiv button{
+   width: 100%;
+    padding: 15px 0;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid;
+    font-size: 18px;
+    cursor: pointer; 
+
+}
+
